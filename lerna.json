@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.0.1",
   "npmClient": "npm",
   "command": {
     "publish": {
@@ -10,9 +10,13 @@
     },
     "bootstrap": {
       "ignore": "component-*",
-      "npmClientArgs": ["--no-package-lock"]      
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
     }
   },
-  "packages": ["packages/*"],
-  "useWorkspaces":true
+  "packages": [
+    "packages/*"
+  ],
+  "useWorkspaces": true
 }
