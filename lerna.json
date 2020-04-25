@@ -13,5 +13,6 @@
       "npmClientArgs": ["--no-package-lock"]      
     }
   },
-  "packages": ["packages/*"]
+  "packages": ["packages/*"],
+  "useWorkspaces":true
 }
