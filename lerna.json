@@ -1,15 +1,11 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "npmClient": "npm",
   "command": {
-    "publish": {
-      "ignoreChanges": [
-        "ignored-file",
-        "*.md"
-      ]
-    },
+    
     "bootstrap": {
       "ignore": "component-*",
+      "hoist": true,
       "npmClientArgs": [
         "--no-package-lock"
       ]
@@ -17,6 +13,5 @@
   },
   "packages": [
     "packages/*"
-  ],
-  "useWorkspaces": true
+  ]
 }
